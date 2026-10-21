@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.vscode/
+.idea/
+
+# Credentials / environment files
+.env
+.env.*
+*.key
+*.pem
+
+# Confidential or local datasets
+/data/raw/
+/data/private/
+*.xlsx
+*.xls
+*.parquet
+
+# Local model artifacts / generated exports
+/models/
+*.pkl
+*.pickle
+*.joblib
+model_comparison_summary.csv
+/runs/
+/data/*
+!/data/synthetic/
+/data/synthetic/*
+!/data/synthetic/synthetic_all_disch.csv
+!/data/synthetic/synthetic_ctal_disch.csv
